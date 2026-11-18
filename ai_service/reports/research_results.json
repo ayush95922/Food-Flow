@@ -1,0 +1,1703 @@
+{
+  "baselines_demand_supply_0.5": {
+    "config": {
+      "n_donations": 40,
+      "n_recipients": 12,
+      "categories": [
+        "cooked_meal",
+        "cooked_protein_meal",
+        "fresh_salad",
+        "soup_liquid",
+        "ready_to_eat_snack",
+        "bakery_dry",
+        "sweets_desserts"
+      ],
+      "qty_min": 20.0,
+      "qty_max": 200.0,
+      "demand_supply_ratio": 0.5,
+      "city_center": [
+        22.7196,
+        75.8577
+      ],
+      "city_radius_km": 8.0,
+      "deadline_min_range": [
+        30.0,
+        180.0
+      ],
+      "storage_conditions": [
+        "room_temp",
+        "refrigerated",
+        "frozen",
+        "hot_holding",
+        "insulated_box"
+      ],
+      "capacity_factor_range": [
+        0.5,
+        1.2
+      ],
+      "horizon_min": 480.0,
+      "estimate_noise": 0.15,
+      "speed_kmph": 25.0,
+      "detour_factor": 1.3,
+      "max_radius_km": 15.0,
+      "n_demand_events": 6,
+      "n_unavailable_events": 4,
+      "unavailable_duration_min": [
+        60.0,
+        180.0
+      ],
+      "accept_prob": 0.85,
+      "response_delay_range": [
+        10.0,
+        30.0
+      ]
+    },
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "summary": {
+      "A_nearest_recipient": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 1647.0,
+          "std": 189.55410473184074
+        },
+        "potential_wastage": {
+          "mean": 2687.6666666666665,
+          "std": 241.2093572459172
+        },
+        "wastage_pct": {
+          "mean": 62.003927205400835,
+          "std": 3.445567695940058
+        },
+        "unmet_demand": {
+          "mean": 520.3666666666667,
+          "std": 150.08882044638935
+        },
+        "beneficiaries_served": {
+          "mean": 1647.0,
+          "std": 189.55410473184074
+        },
+        "recipients_served": {
+          "mean": 10.9,
+          "std": 1.0618786215460558
+        },
+        "avg_transport_km": {
+          "mean": 5.685789848982126,
+          "std": 0.858828281632455
+        },
+        "jain_fairness": {
+          "mean": 0.8686976464568364,
+          "std": 0.08330298830802586
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.10108960333356028,
+          "std": 0.020114852458683996
+        },
+        "matching_time_total_s": {
+          "mean": 0.004043584133342411,
+          "std": 0.0008045940983473597
+        },
+        "computational_time_s": {
+          "mean": 0.00429994880000019,
+          "std": 0.0008260958856011505
+        }
+      },
+      "B_rule_based": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 1637.1333333333334,
+          "std": 186.5434650900859
+        },
+        "potential_wastage": {
+          "mean": 2697.5333333333333,
+          "std": 243.41361610589317
+        },
+        "wastage_pct": {
+          "mean": 62.22765937093594,
+          "std": 3.4113887225904556
+        },
+        "unmet_demand": {
+          "mean": 530.2333333333333,
+          "std": 149.9240459040173
+        },
+        "beneficiaries_served": {
+          "mean": 1637.1333333333334,
+          "std": 186.5434650900859
+        },
+        "recipients_served": {
+          "mean": 10.766666666666667,
+          "std": 1.0726484571581123
+        },
+        "avg_transport_km": {
+          "mean": 6.44760946380056,
+          "std": 0.9763529903737974
+        },
+        "jain_fairness": {
+          "mean": 0.8559010701192381,
+          "std": 0.0879689288318429
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.09780499249982218,
+          "std": 0.01087717094831078
+        },
+        "matching_time_total_s": {
+          "mean": 0.003912199699992887,
+          "std": 0.00043508683793243134
+        },
+        "computational_time_s": {
+          "mean": 0.004150863000001456,
+          "std": 0.00045320027686690783
+        }
+      },
+      "C_dynamic_multi_factor": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 1630.0,
+          "std": 188.14172940851688
+        },
+        "potential_wastage": {
+          "mean": 2704.6666666666665,
+          "std": 255.23273129917482
+        },
+        "wastage_pct": {
+          "mean": 62.37823391933167,
+          "std": 3.610598385386632
+        },
+        "unmet_demand": {
+          "mean": 537.3666666666667,
+          "std": 160.4920200687471
+        },
+        "beneficiaries_served": {
+          "mean": 1630.0,
+          "std": 188.14172940851688
+        },
+        "recipients_served": {
+          "mean": 10.8,
+          "std": 1.0954451150103321
+        },
+        "avg_transport_km": {
+          "mean": 6.498464652286729,
+          "std": 0.6760672493848588
+        },
+        "jain_fairness": {
+          "mean": 0.8576971197811317,
+          "std": 0.08506597846750015
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.11794105333367592,
+          "std": 0.014471847673741144
+        },
+        "matching_time_total_s": {
+          "mean": 0.004717642133347037,
+          "std": 0.0005788739069496456
+        },
+        "computational_time_s": {
+          "mean": 0.004991339233331852,
+          "std": 0.0007621970318531204
+        }
+      }
+    },
+    "paired_tests_proposed_minus_baseline": {
+      "C_dynamic_multi_factor_vs_A_nearest_recipient": {
+        "redistributed": {
+          "mean_diff": -17.0,
+          "n": 30,
+          "p_value": 0.06175497356189499
+        },
+        "potential_wastage": {
+          "mean_diff": 17.0,
+          "n": 30,
+          "p_value": 0.06175497356189499
+        },
+        "unmet_demand": {
+          "mean_diff": 17.0,
+          "n": 30,
+          "p_value": 0.06175497356189499
+        },
+        "recipients_served": {
+          "mean_diff": -0.1,
+          "n": 30,
+          "p_value": 0.0832645166635504
+        },
+        "avg_transport_km": {
+          "mean_diff": 0.8126748033046008,
+          "n": 30,
+          "p_value": 2.551823854446411e-07
+        },
+        "jain_fairness": {
+          "mean_diff": -0.01100052667570478,
+          "n": 30,
+          "p_value": 0.05973901545539241
+        },
+        "matching_time_ms_per_donation": {
+          "mean_diff": 0.016851450000115637,
+          "n": 30,
+          "p_value": 0.00018860027194023132
+        }
+      },
+      "C_dynamic_multi_factor_vs_B_rule_based": {
+        "redistributed": {
+          "mean_diff": -7.133333333333334,
+          "n": 30,
+          "p_value": 0.24112136827741826
+        },
+        "potential_wastage": {
+          "mean_diff": 7.133333333333334,
+          "n": 30,
+          "p_value": 0.24112136827741826
+        },
+        "unmet_demand": {
+          "mean_diff": 7.133333333333334,
+          "n": 30,
+          "p_value": 0.24112136827741826
+        },
+        "recipients_served": {
+          "mean_diff": 0.03333333333333333,
+          "n": 30,
+          "p_value": 0.31731050786291415
+        },
+        "avg_transport_km": {
+          "mean_diff": 0.050855188486167595,
+          "n": 30,
+          "p_value": 0.9515264742076397
+        },
+        "jain_fairness": {
+          "mean_diff": 0.0017960496618935951,
+          "n": 30,
+          "p_value": 0.5750621301739497
+        },
+        "matching_time_ms_per_donation": {
+          "mean_diff": 0.020136060833853737,
+          "n": 30,
+          "p_value": 1.0244548320770264e-07
+        }
+      }
+    },
+    "note": "SYNTHETIC scenarios. p-values: two-sided Wilcoxon signed-rank on per-seed paired differences, no multiple-comparison correction."
+  },
+  "baselines_demand_supply_1.0": {
+    "config": {
+      "n_donations": 40,
+      "n_recipients": 12,
+      "categories": [
+        "cooked_meal",
+        "cooked_protein_meal",
+        "fresh_salad",
+        "soup_liquid",
+        "ready_to_eat_snack",
+        "bakery_dry",
+        "sweets_desserts"
+      ],
+      "qty_min": 20.0,
+      "qty_max": 200.0,
+      "demand_supply_ratio": 1.0,
+      "city_center": [
+        22.7196,
+        75.8577
+      ],
+      "city_radius_km": 8.0,
+      "deadline_min_range": [
+        30.0,
+        180.0
+      ],
+      "storage_conditions": [
+        "room_temp",
+        "refrigerated",
+        "frozen",
+        "hot_holding",
+        "insulated_box"
+      ],
+      "capacity_factor_range": [
+        0.5,
+        1.2
+      ],
+      "horizon_min": 480.0,
+      "estimate_noise": 0.15,
+      "speed_kmph": 25.0,
+      "detour_factor": 1.3,
+      "max_radius_km": 15.0,
+      "n_demand_events": 6,
+      "n_unavailable_events": 4,
+      "unavailable_duration_min": [
+        60.0,
+        180.0
+      ],
+      "accept_prob": 0.85,
+      "response_delay_range": [
+        10.0,
+        30.0
+      ]
+    },
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "summary": {
+      "A_nearest_recipient": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 2997.6,
+          "std": 350.7223678500486
+        },
+        "potential_wastage": {
+          "mean": 1337.0666666666666,
+          "std": 211.96208726274992
+        },
+        "wastage_pct": {
+          "mean": 30.95042404305553,
+          "std": 5.167005927486838
+        },
+        "unmet_demand": {
+          "mean": 1337.2,
+          "std": 212.1732213595037
+        },
+        "beneficiaries_served": {
+          "mean": 2997.6,
+          "std": 350.7223678500486
+        },
+        "recipients_served": {
+          "mean": 10.7,
+          "std": 1.1492126240049811
+        },
+        "avg_transport_km": {
+          "mean": 5.09008753152945,
+          "std": 0.9624517249328498
+        },
+        "jain_fairness": {
+          "mean": 0.8404574679855248,
+          "std": 0.0912045112762988
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.09607635333322169,
+          "std": 0.004851283340502685
+        },
+        "matching_time_total_s": {
+          "mean": 0.0038430541333288677,
+          "std": 0.00019405133362010736
+        },
+        "computational_time_s": {
+          "mean": 0.004111365133333322,
+          "std": 0.00019904041446825577
+        }
+      },
+      "B_rule_based": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 3119.0666666666666,
+          "std": 356.5965491288085
+        },
+        "potential_wastage": {
+          "mean": 1215.6,
+          "std": 239.40135107503409
+        },
+        "wastage_pct": {
+          "mean": 28.11337748624628,
+          "std": 5.61927103332863
+        },
+        "unmet_demand": {
+          "mean": 1215.7333333333333,
+          "std": 239.52768659108736
+        },
+        "beneficiaries_served": {
+          "mean": 3119.0666666666666,
+          "std": 356.5965491288085
+        },
+        "recipients_served": {
+          "mean": 10.5,
+          "std": 1.106407669457548
+        },
+        "avg_transport_km": {
+          "mean": 5.874460967405777,
+          "std": 0.8726089910047121
+        },
+        "jain_fairness": {
+          "mean": 0.8359228407319824,
+          "std": 0.0864797230667314
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.10227354583352148,
+          "std": 0.007355271765625842
+        },
+        "matching_time_total_s": {
+          "mean": 0.004090941833340859,
+          "std": 0.00029421087062503375
+        },
+        "computational_time_s": {
+          "mean": 0.004349216299999625,
+          "std": 0.00030348473593175415
+        }
+      },
+      "C_dynamic_multi_factor": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 3110.3333333333335,
+          "std": 340.86384513400685
+        },
+        "potential_wastage": {
+          "mean": 1224.3333333333333,
+          "std": 208.6786563335968
+        },
+        "wastage_pct": {
+          "mean": 28.32332971463067,
+          "std": 4.95737658520365
+        },
+        "unmet_demand": {
+          "mean": 1224.4666666666667,
+          "std": 208.70135953381896
+        },
+        "beneficiaries_served": {
+          "mean": 3110.3333333333335,
+          "std": 340.86384513400685
+        },
+        "recipients_served": {
+          "mean": 10.733333333333333,
+          "std": 1.1426929274467317
+        },
+        "avg_transport_km": {
+          "mean": 6.034813874541073,
+          "std": 0.9119263599079156
+        },
+        "jain_fairness": {
+          "mean": 0.8520077118933836,
+          "std": 0.0880902775934195
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.13027794249972877,
+          "std": 0.008087971685267975
+        },
+        "matching_time_total_s": {
+          "mean": 0.00521111769998915,
+          "std": 0.000323518867410719
+        },
+        "computational_time_s": {
+          "mean": 0.0054739808666676975,
+          "std": 0.0003306097389249528
+        }
+      }
+    },
+    "paired_tests_proposed_minus_baseline": {
+      "C_dynamic_multi_factor_vs_A_nearest_recipient": {
+        "redistributed": {
+          "mean_diff": 112.73333333333333,
+          "n": 30,
+          "p_value": 0.0002399133937569928
+        },
+        "potential_wastage": {
+          "mean_diff": -112.73333333333333,
+          "n": 30,
+          "p_value": 0.0002399133937569928
+        },
+        "unmet_demand": {
+          "mean_diff": -112.73333333333333,
+          "n": 30,
+          "p_value": 0.0002399133937569928
+        },
+        "recipients_served": {
+          "mean_diff": 0.03333333333333333,
+          "n": 30,
+          "p_value": 0.7054569861112734
+        },
+        "avg_transport_km": {
+          "mean_diff": 0.9447263430116207,
+          "n": 30,
+          "p_value": 1.862645149230957e-09
+        },
+        "jain_fairness": {
+          "mean_diff": 0.011550243907858648,
+          "n": 30,
+          "p_value": 0.02459398687088831
+        },
+        "matching_time_ms_per_donation": {
+          "mean_diff": 0.03420158916650706,
+          "n": 30,
+          "p_value": 1.862645149230957e-09
+        }
+      },
+      "C_dynamic_multi_factor_vs_B_rule_based": {
+        "redistributed": {
+          "mean_diff": -8.733333333333333,
+          "n": 30,
+          "p_value": 0.28706380879099946
+        },
+        "potential_wastage": {
+          "mean_diff": 8.733333333333333,
+          "n": 30,
+          "p_value": 0.28706380879099946
+        },
+        "unmet_demand": {
+          "mean_diff": 8.733333333333333,
+          "n": 30,
+          "p_value": 0.28706380879099946
+        },
+        "recipients_served": {
+          "mean_diff": 0.23333333333333334,
+          "n": 30,
+          "p_value": 0.019630657257290667
+        },
+        "avg_transport_km": {
+          "mean_diff": 0.16035290713529654,
+          "n": 30,
+          "p_value": 0.08793856762349606
+        },
+        "jain_fairness": {
+          "mean_diff": 0.016084871161400817,
+          "n": 30,
+          "p_value": 0.18081236677854295
+        },
+        "matching_time_ms_per_donation": {
+          "mean_diff": 0.02800439666620728,
+          "n": 30,
+          "p_value": 1.862645149230957e-09
+        }
+      }
+    },
+    "note": "SYNTHETIC scenarios. p-values: two-sided Wilcoxon signed-rank on per-seed paired differences, no multiple-comparison correction."
+  },
+  "baselines_demand_supply_1.5": {
+    "config": {
+      "n_donations": 40,
+      "n_recipients": 12,
+      "categories": [
+        "cooked_meal",
+        "cooked_protein_meal",
+        "fresh_salad",
+        "soup_liquid",
+        "ready_to_eat_snack",
+        "bakery_dry",
+        "sweets_desserts"
+      ],
+      "qty_min": 20.0,
+      "qty_max": 200.0,
+      "demand_supply_ratio": 1.5,
+      "city_center": [
+        22.7196,
+        75.8577
+      ],
+      "city_radius_km": 8.0,
+      "deadline_min_range": [
+        30.0,
+        180.0
+      ],
+      "storage_conditions": [
+        "room_temp",
+        "refrigerated",
+        "frozen",
+        "hot_holding",
+        "insulated_box"
+      ],
+      "capacity_factor_range": [
+        0.5,
+        1.2
+      ],
+      "horizon_min": 480.0,
+      "estimate_noise": 0.15,
+      "speed_kmph": 25.0,
+      "detour_factor": 1.3,
+      "max_radius_km": 15.0,
+      "n_demand_events": 6,
+      "n_unavailable_events": 4,
+      "unavailable_duration_min": [
+        60.0,
+        180.0
+      ],
+      "accept_prob": 0.85,
+      "response_delay_range": [
+        10.0,
+        30.0
+      ]
+    },
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "summary": {
+      "A_nearest_recipient": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 3391.8,
+          "std": 407.61910888847507
+        },
+        "potential_wastage": {
+          "mean": 942.8666666666667,
+          "std": 327.93835978136497
+        },
+        "wastage_pct": {
+          "mean": 21.77571928336686,
+          "std": 7.574268102773721
+        },
+        "unmet_demand": {
+          "mean": 3110.1,
+          "std": 390.1613591924456
+        },
+        "beneficiaries_served": {
+          "mean": 3391.8,
+          "std": 407.61910888847507
+        },
+        "recipients_served": {
+          "mean": 10.533333333333333,
+          "std": 1.136641554311871
+        },
+        "avg_transport_km": {
+          "mean": 4.375199224751802,
+          "std": 0.8850961523326217
+        },
+        "jain_fairness": {
+          "mean": 0.756210956860059,
+          "std": 0.08250972654103175
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.1067437816668478,
+          "std": 0.02006076976344948
+        },
+        "matching_time_total_s": {
+          "mean": 0.004269751266673912,
+          "std": 0.0008024307905379792
+        },
+        "computational_time_s": {
+          "mean": 0.004576019233335179,
+          "std": 0.0008503042675758854
+        }
+      },
+      "B_rule_based": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 3468.8,
+          "std": 384.27858070182225
+        },
+        "potential_wastage": {
+          "mean": 865.8666666666667,
+          "std": 323.4249615399628
+        },
+        "wastage_pct": {
+          "mean": 19.953924963875263,
+          "std": 7.371790799387446
+        },
+        "unmet_demand": {
+          "mean": 3033.1,
+          "std": 396.3255671445054
+        },
+        "beneficiaries_served": {
+          "mean": 3468.8,
+          "std": 384.27858070182225
+        },
+        "recipients_served": {
+          "mean": 9.633333333333333,
+          "std": 1.2452207485597395
+        },
+        "avg_transport_km": {
+          "mean": 5.303884332869582,
+          "std": 0.964958056836661
+        },
+        "jain_fairness": {
+          "mean": 0.7196555988811613,
+          "std": 0.10127786440917164
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.1057098899999905,
+          "std": 0.01670435299045072
+        },
+        "matching_time_total_s": {
+          "mean": 0.00422839559999962,
+          "std": 0.0006681741196180288
+        },
+        "computational_time_s": {
+          "mean": 0.004528221366666211,
+          "std": 0.0007100047350552225
+        }
+      },
+      "C_dynamic_multi_factor": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 3468.0666666666666,
+          "std": 377.358873673629
+        },
+        "potential_wastage": {
+          "mean": 866.6,
+          "std": 311.9994031824531
+        },
+        "wastage_pct": {
+          "mean": 19.97643069046159,
+          "std": 7.033053496781769
+        },
+        "unmet_demand": {
+          "mean": 3033.8333333333335,
+          "std": 385.7634690104656
+        },
+        "beneficiaries_served": {
+          "mean": 3468.0666666666666,
+          "std": 377.358873673629
+        },
+        "recipients_served": {
+          "mean": 10.4,
+          "std": 1.1626367179523596
+        },
+        "avg_transport_km": {
+          "mean": 5.281093637628469,
+          "std": 0.9840710577770079
+        },
+        "jain_fairness": {
+          "mean": 0.7926737429420442,
+          "std": 0.09768699845107448
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.14203156416685422,
+          "std": 0.026030845293974616
+        },
+        "matching_time_total_s": {
+          "mean": 0.005681262566674169,
+          "std": 0.0010412338117589848
+        },
+        "computational_time_s": {
+          "mean": 0.005979554633334298,
+          "std": 0.0010913580800871632
+        }
+      }
+    },
+    "paired_tests_proposed_minus_baseline": {
+      "C_dynamic_multi_factor_vs_A_nearest_recipient": {
+        "redistributed": {
+          "mean_diff": 76.26666666666667,
+          "n": 30,
+          "p_value": 0.0039431977414849115
+        },
+        "potential_wastage": {
+          "mean_diff": -76.26666666666667,
+          "n": 30,
+          "p_value": 0.0039431977414849115
+        },
+        "unmet_demand": {
+          "mean_diff": -76.26666666666667,
+          "n": 30,
+          "p_value": 0.0039431977414849115
+        },
+        "recipients_served": {
+          "mean_diff": -0.13333333333333333,
+          "n": 30,
+          "p_value": 0.24821307898992373
+        },
+        "avg_transport_km": {
+          "mean_diff": 0.9058944128766668,
+          "n": 30,
+          "p_value": 3.725290298461914e-09
+        },
+        "jain_fairness": {
+          "mean_diff": 0.036462786081985485,
+          "n": 30,
+          "p_value": 0.006639536470174789
+        },
+        "matching_time_ms_per_donation": {
+          "mean_diff": 0.035287782500006415,
+          "n": 30,
+          "p_value": 1.4193356037139893e-06
+        }
+      },
+      "C_dynamic_multi_factor_vs_B_rule_based": {
+        "redistributed": {
+          "mean_diff": -0.7333333333333333,
+          "n": 30,
+          "p_value": 0.9479148130096964
+        },
+        "potential_wastage": {
+          "mean_diff": 0.7333333333333333,
+          "n": 30,
+          "p_value": 0.9479148130096964
+        },
+        "unmet_demand": {
+          "mean_diff": 0.7333333333333333,
+          "n": 30,
+          "p_value": 0.9479148130096964
+        },
+        "recipients_served": {
+          "mean_diff": 0.7666666666666667,
+          "n": 30,
+          "p_value": 0.0005588270393319353
+        },
+        "avg_transport_km": {
+          "mean_diff": -0.022790695241111436,
+          "n": 30,
+          "p_value": 0.7921590935438871
+        },
+        "jain_fairness": {
+          "mean_diff": 0.07301814406088322,
+          "n": 30,
+          "p_value": 2.6026076788230615e-05
+        },
+        "matching_time_ms_per_donation": {
+          "mean_diff": 0.036321674166863716,
+          "n": 30,
+          "p_value": 3.725290298461914e-09
+        }
+      }
+    },
+    "note": "SYNTHETIC scenarios. p-values: two-sided Wilcoxon signed-rank on per-seed paired differences, no multiple-comparison correction."
+  },
+  "ablation": {
+    "config": {
+      "n_donations": 40,
+      "n_recipients": 12,
+      "categories": [
+        "cooked_meal",
+        "cooked_protein_meal",
+        "fresh_salad",
+        "soup_liquid",
+        "ready_to_eat_snack",
+        "bakery_dry",
+        "sweets_desserts"
+      ],
+      "qty_min": 20.0,
+      "qty_max": 200.0,
+      "demand_supply_ratio": 1.0,
+      "city_center": [
+        22.7196,
+        75.8577
+      ],
+      "city_radius_km": 8.0,
+      "deadline_min_range": [
+        30.0,
+        180.0
+      ],
+      "storage_conditions": [
+        "room_temp",
+        "refrigerated",
+        "frozen",
+        "hot_holding",
+        "insulated_box"
+      ],
+      "capacity_factor_range": [
+        0.5,
+        1.2
+      ],
+      "horizon_min": 480.0,
+      "estimate_noise": 0.15,
+      "speed_kmph": 25.0,
+      "detour_factor": 1.3,
+      "max_radius_km": 15.0,
+      "n_demand_events": 6,
+      "n_unavailable_events": 4,
+      "unavailable_duration_min": [
+        60.0,
+        180.0
+      ],
+      "accept_prob": 0.85,
+      "response_delay_range": [
+        10.0,
+        30.0
+      ]
+    },
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "summary": {
+      "full": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 3110.3333333333335,
+          "std": 340.86384513400685
+        },
+        "potential_wastage": {
+          "mean": 1224.3333333333333,
+          "std": 208.6786563335968
+        },
+        "wastage_pct": {
+          "mean": 28.32332971463067,
+          "std": 4.95737658520365
+        },
+        "unmet_demand": {
+          "mean": 1224.4666666666667,
+          "std": 208.70135953381896
+        },
+        "beneficiaries_served": {
+          "mean": 3110.3333333333335,
+          "std": 340.86384513400685
+        },
+        "recipients_served": {
+          "mean": 10.733333333333333,
+          "std": 1.1426929274467317
+        },
+        "avg_transport_km": {
+          "mean": 6.034813874541073,
+          "std": 0.9119263599079156
+        },
+        "jain_fairness": {
+          "mean": 0.8520077118933836,
+          "std": 0.0880902775934195
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.15643827666673124,
+          "std": 0.03153331353533944
+        },
+        "matching_time_total_s": {
+          "mean": 0.006257531066669249,
+          "std": 0.0012613325414135776
+        },
+        "computational_time_s": {
+          "mean": 0.006596763466664868,
+          "std": 0.0013120968033433049
+        }
+      },
+      "without_urgency": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 3120.3,
+          "std": 347.22944317395746
+        },
+        "potential_wastage": {
+          "mean": 1214.3666666666666,
+          "std": 214.68091531922173
+        },
+        "wastage_pct": {
+          "mean": 28.097810869318085,
+          "std": 5.12197529388234
+        },
+        "unmet_demand": {
+          "mean": 1214.5,
+          "std": 214.66762600628073
+        },
+        "beneficiaries_served": {
+          "mean": 3120.3,
+          "std": 347.22944317395746
+        },
+        "recipients_served": {
+          "mean": 10.7,
+          "std": 1.1492126240049811
+        },
+        "avg_transport_km": {
+          "mean": 6.035040180715244,
+          "std": 0.7967856172842587
+        },
+        "jain_fairness": {
+          "mean": 0.8468645405381504,
+          "std": 0.08856251493549146
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.15358666999995071,
+          "std": 0.03306245834294019
+        },
+        "matching_time_total_s": {
+          "mean": 0.006143466799998028,
+          "std": 0.0013224983337176077
+        },
+        "computational_time_s": {
+          "mean": 0.006449011966666755,
+          "std": 0.0013812209357200232
+        }
+      },
+      "without_fairness": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 3112.0666666666666,
+          "std": 362.2153991788572
+        },
+        "potential_wastage": {
+          "mean": 1222.6,
+          "std": 233.2365382152219
+        },
+        "wastage_pct": {
+          "mean": 28.29338199119534,
+          "std": 5.558115737648634
+        },
+        "unmet_demand": {
+          "mean": 1222.7333333333333,
+          "std": 233.39517078792875
+        },
+        "beneficiaries_served": {
+          "mean": 3112.0666666666666,
+          "std": 362.2153991788572
+        },
+        "recipients_served": {
+          "mean": 10.5,
+          "std": 1.1670771035014103
+        },
+        "avg_transport_km": {
+          "mean": 5.946792082242753,
+          "std": 0.8927895821786295
+        },
+        "jain_fairness": {
+          "mean": 0.8353446839316879,
+          "std": 0.09540830734903363
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.15774733499989443,
+          "std": 0.033940475746742985
+        },
+        "matching_time_total_s": {
+          "mean": 0.006309893399995777,
+          "std": 0.0013576190298697193
+        },
+        "computational_time_s": {
+          "mean": 0.006631289299997433,
+          "std": 0.0014195997220058066
+        }
+      },
+      "without_distance": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 3114.5333333333333,
+          "std": 333.9518583241616
+        },
+        "potential_wastage": {
+          "mean": 1220.1333333333334,
+          "std": 194.59803545333864
+        },
+        "wastage_pct": {
+          "mean": 28.229490572859724,
+          "std": 4.60397655621866
+        },
+        "unmet_demand": {
+          "mean": 1220.2666666666667,
+          "std": 194.68913033670978
+        },
+        "beneficiaries_served": {
+          "mean": 3114.5333333333333,
+          "std": 333.9518583241616
+        },
+        "recipients_served": {
+          "mean": 10.7,
+          "std": 1.1492126240049811
+        },
+        "avg_transport_km": {
+          "mean": 6.968106769989752,
+          "std": 0.8528815747619147
+        },
+        "jain_fairness": {
+          "mean": 0.8468359574397926,
+          "std": 0.08728848021108686
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.15927060333345602,
+          "std": 0.033600903309467446
+        },
+        "matching_time_total_s": {
+          "mean": 0.006370824133338241,
+          "std": 0.0013440361323786975
+        },
+        "computational_time_s": {
+          "mean": 0.006687347233332256,
+          "std": 0.0013923393684396896
+        }
+      },
+      "without_usable_time": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 2561.5,
+          "std": 364.33006539637125
+        },
+        "potential_wastage": {
+          "mean": 1773.1666666666667,
+          "std": 328.03816886131574
+        },
+        "wastage_pct": {
+          "mean": 40.93430811883965,
+          "std": 7.0279395011441865
+        },
+        "unmet_demand": {
+          "mean": 1773.3,
+          "std": 328.18730459381226
+        },
+        "beneficiaries_served": {
+          "mean": 2561.5,
+          "std": 364.33006539637125
+        },
+        "recipients_served": {
+          "mean": 10.5,
+          "std": 1.1670771035014103
+        },
+        "avg_transport_km": {
+          "mean": 6.279360461408304,
+          "std": 0.9504218883160144
+        },
+        "jain_fairness": {
+          "mean": 0.7953343625521346,
+          "std": 0.09828470352721193
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.1629667841665968,
+          "std": 0.03688396599351546
+        },
+        "matching_time_total_s": {
+          "mean": 0.006518671366663871,
+          "std": 0.0014753586397406187
+        },
+        "computational_time_s": {
+          "mean": 0.006828756666667838,
+          "std": 0.0015282190244404828
+        }
+      },
+      "without_capacity": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 2961.266666666667,
+          "std": 318.8257478173059
+        },
+        "potential_wastage": {
+          "mean": 1373.4,
+          "std": 229.2256229283641
+        },
+        "wastage_pct": {
+          "mean": 31.72439896210654,
+          "std": 4.994880060658938
+        },
+        "unmet_demand": {
+          "mean": 1373.5333333333333,
+          "std": 229.28129588712238
+        },
+        "beneficiaries_served": {
+          "mean": 2961.266666666667,
+          "std": 318.8257478173059
+        },
+        "recipients_served": {
+          "mean": 10.733333333333333,
+          "std": 1.1426929274467317
+        },
+        "avg_transport_km": {
+          "mean": 5.52348629954014,
+          "std": 0.9467796408788499
+        },
+        "jain_fairness": {
+          "mean": 0.8471335027395683,
+          "std": 0.08992668579593374
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.15079694749992711,
+          "std": 0.03477916807685957
+        },
+        "matching_time_total_s": {
+          "mean": 0.006031877899997084,
+          "std": 0.001391166723074383
+        },
+        "computational_time_s": {
+          "mean": 0.006393260266665853,
+          "std": 0.0015645486644875147
+        }
+      }
+    },
+    "delta_vs_full": {
+      "without_urgency": {
+        "redistributed": {
+          "mean_diff": 9.966666666666667,
+          "n": 30,
+          "p_value": 0.12819017434510785
+        },
+        "potential_wastage": {
+          "mean_diff": -9.966666666666667,
+          "n": 30,
+          "p_value": 0.12819017434510785
+        },
+        "unmet_demand": {
+          "mean_diff": -9.966666666666667,
+          "n": 30,
+          "p_value": 0.12819017434510785
+        },
+        "recipients_served": {
+          "mean_diff": -0.03333333333333333,
+          "n": 30,
+          "p_value": 0.31731050786291415
+        },
+        "avg_transport_km": {
+          "mean_diff": 0.00022630617417123132,
+          "n": 30,
+          "p_value": 0.916511907863894
+        },
+        "jain_fairness": {
+          "mean_diff": -0.005143171355233149,
+          "n": 30,
+          "p_value": 0.3742593192802244
+        },
+        "matching_time_ms_per_donation": {
+          "mean_diff": -0.002851606666780526,
+          "n": 30,
+          "p_value": 0.011303061619400978
+        }
+      },
+      "without_fairness": {
+        "redistributed": {
+          "mean_diff": 1.7333333333333334,
+          "n": 30,
+          "p_value": 0.808096865815573
+        },
+        "potential_wastage": {
+          "mean_diff": -1.7333333333333334,
+          "n": 30,
+          "p_value": 0.808096865815573
+        },
+        "unmet_demand": {
+          "mean_diff": -1.7333333333333334,
+          "n": 30,
+          "p_value": 0.808096865815573
+        },
+        "recipients_served": {
+          "mean_diff": -0.23333333333333334,
+          "n": 30,
+          "p_value": 0.03389485352468927
+        },
+        "avg_transport_km": {
+          "mean_diff": -0.08802179229832031,
+          "n": 30,
+          "p_value": 0.28008678182959557
+        },
+        "jain_fairness": {
+          "mean_diff": -0.016663027961695658,
+          "n": 30,
+          "p_value": 0.20870191067235688
+        },
+        "matching_time_ms_per_donation": {
+          "mean_diff": 0.0013090583331631933,
+          "n": 30,
+          "p_value": 0.8078304156661034
+        }
+      },
+      "without_distance": {
+        "redistributed": {
+          "mean_diff": 4.2,
+          "n": 30,
+          "p_value": 0.5480703969874212
+        },
+        "potential_wastage": {
+          "mean_diff": -4.2,
+          "n": 30,
+          "p_value": 0.5480703969874212
+        },
+        "unmet_demand": {
+          "mean_diff": -4.2,
+          "n": 30,
+          "p_value": 0.5480703969874212
+        },
+        "recipients_served": {
+          "mean_diff": -0.03333333333333333,
+          "n": 30,
+          "p_value": 0.7054569861112734
+        },
+        "avg_transport_km": {
+          "mean_diff": 0.9332928954486791,
+          "n": 30,
+          "p_value": 5.587935447692871e-09
+        },
+        "jain_fairness": {
+          "mean_diff": -0.005171754453590886,
+          "n": 30,
+          "p_value": 0.429067256009819
+        },
+        "matching_time_ms_per_donation": {
+          "mean_diff": 0.0028323266667248013,
+          "n": 30,
+          "p_value": 0.8078304156661034
+        }
+      },
+      "without_usable_time": {
+        "redistributed": {
+          "mean_diff": -548.8333333333334,
+          "n": 30,
+          "p_value": 1.7333066441991056e-06
+        },
+        "potential_wastage": {
+          "mean_diff": 548.8333333333334,
+          "n": 30,
+          "p_value": 1.7333066441991056e-06
+        },
+        "unmet_demand": {
+          "mean_diff": 548.8333333333334,
+          "n": 30,
+          "p_value": 1.7333066441991056e-06
+        },
+        "recipients_served": {
+          "mean_diff": -0.23333333333333334,
+          "n": 30,
+          "p_value": 0.034808478811867126
+        },
+        "avg_transport_km": {
+          "mean_diff": 0.24454658686723205,
+          "n": 30,
+          "p_value": 0.018529480323195457
+        },
+        "jain_fairness": {
+          "mean_diff": -0.05667334934124873,
+          "n": 30,
+          "p_value": 1.30385160446167e-07
+        },
+        "matching_time_ms_per_donation": {
+          "mean_diff": 0.0065285074998655546,
+          "n": 30,
+          "p_value": 0.15188691951334476
+        }
+      },
+      "without_capacity": {
+        "redistributed": {
+          "mean_diff": -149.06666666666666,
+          "n": 30,
+          "p_value": 5.601761882966655e-06
+        },
+        "potential_wastage": {
+          "mean_diff": 149.06666666666666,
+          "n": 30,
+          "p_value": 5.601761882966655e-06
+        },
+        "unmet_demand": {
+          "mean_diff": 149.06666666666666,
+          "n": 30,
+          "p_value": 5.601761882966655e-06
+        },
+        "recipients_served": {
+          "mean_diff": 0.0,
+          "n": 30,
+          "p_value": 1.0
+        },
+        "avg_transport_km": {
+          "mean_diff": -0.5113275750009342,
+          "n": 30,
+          "p_value": 2.60770320892334e-08
+        },
+        "jain_fairness": {
+          "mean_diff": -0.004874209153815149,
+          "n": 30,
+          "p_value": 0.3487714377468045
+        },
+        "matching_time_ms_per_donation": {
+          "mean_diff": -0.005641329166804117,
+          "n": 30,
+          "p_value": 0.009301122277975082
+        }
+      }
+    },
+    "note": "delta = variant - full (paired over identical synthetic scenarios). Positive 'potential_wastage' or 'unmet_demand' delta means the variant is WORSE; negative 'jain_fairness'/'redistributed' delta means worse."
+  },
+  "dynamic_timeline": {
+    "summary": {
+      "static": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 2531.1233333333334,
+          "std": 361.4832439321056
+        },
+        "potential_wastage": {
+          "mean": 1803.5433333333335,
+          "std": 337.04572153092056
+        },
+        "wastage_pct": {
+          "mean": 41.61342689116672,
+          "std": 7.161718643711164
+        },
+        "unmet_demand": {
+          "mean": 2112.7499999999995,
+          "std": 758.4127184796706
+        },
+        "beneficiaries_served": {
+          "mean": 2531.1233333333334,
+          "std": 361.4832439321056
+        },
+        "recipients_served": {
+          "mean": 10.6,
+          "std": 1.0372377109252813
+        },
+        "avg_transport_km": {
+          "mean": 6.107938028253604,
+          "std": 0.8191789056673373
+        },
+        "jain_fairness": {
+          "mean": 0.772410189206197,
+          "std": 0.08410619568741404
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.1619759900000517,
+          "std": 0.022913217492431547
+        },
+        "matching_time_total_s": {
+          "mean": 0.006479039600002068,
+          "std": 0.0009165286996972618
+        },
+        "computational_time_s": {
+          "mean": 0.007128515766667457,
+          "std": 0.00099353351950857
+        },
+        "rejections": {
+          "mean": 4.6,
+          "std": 1.8118384642924588
+        },
+        "rematches": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "failed_delivery_qty": {
+          "mean": 171.44666666666666,
+          "std": 144.90165210103436
+        }
+      },
+      "dynamic": {
+        "total_donated": {
+          "mean": 4334.666666666667,
+          "std": 313.6066428454308
+        },
+        "redistributed": {
+          "mean": 2709.8433333333337,
+          "std": 380.2795964888823
+        },
+        "potential_wastage": {
+          "mean": 1624.8233333333335,
+          "std": 323.06771862272467
+        },
+        "wastage_pct": {
+          "mean": 37.525189360117295,
+          "std": 7.167044171145358
+        },
+        "unmet_demand": {
+          "mean": 1934.0766666666666,
+          "std": 685.2593974916176
+        },
+        "beneficiaries_served": {
+          "mean": 2709.8433333333337,
+          "std": 380.2795964888823
+        },
+        "recipients_served": {
+          "mean": 10.866666666666667,
+          "std": 1.0416609195243756
+        },
+        "avg_transport_km": {
+          "mean": 6.214370442435036,
+          "std": 0.7831331183368482
+        },
+        "jain_fairness": {
+          "mean": 0.8016141947033297,
+          "std": 0.08007180560941485
+        },
+        "matching_time_ms_per_donation": {
+          "mean": 0.20222993166666944,
+          "std": 0.03529745092068822
+        },
+        "matching_time_total_s": {
+          "mean": 0.008089197266666777,
+          "std": 0.0014118980368275288
+        },
+        "computational_time_s": {
+          "mean": 0.008940546466665941,
+          "std": 0.0015793243872856244
+        },
+        "rejections": {
+          "mean": 5.466666666666667,
+          "std": 2.5425121073638874
+        },
+        "rematches": {
+          "mean": 6.533333333333333,
+          "std": 2.6357402066177937
+        },
+        "failed_delivery_qty": {
+          "mean": 149.00666666666666,
+          "std": 138.06973234024085
+        }
+      }
+    },
+    "paired_tests_dynamic_minus_static": {
+      "redistributed": {
+        "mean_diff": 178.72,
+        "n": 30,
+        "p_value": 3.4036286926195305e-05
+      },
+      "potential_wastage": {
+        "mean_diff": -178.72,
+        "n": 30,
+        "p_value": 3.4036286926195305e-05
+      },
+      "unmet_demand": {
+        "mean_diff": -178.67333333333335,
+        "n": 30,
+        "p_value": 6.516831030736041e-06
+      },
+      "jain_fairness": {
+        "mean_diff": 0.02920400549713269,
+        "n": 30,
+        "p_value": 0.0010414427346697602
+      },
+      "recipients_served": {
+        "mean_diff": 0.26666666666666666,
+        "n": 30,
+        "p_value": 0.02092133533779403
+      },
+      "avg_transport_km": {
+        "mean_diff": 0.10643241418143094,
+        "n": 30,
+        "p_value": 0.5027610473334789
+      },
+      "rejections": {
+        "mean_diff": 0.8666666666666667,
+        "n": 30,
+        "p_value": 0.000993452647674012
+      },
+      "rematches": {
+        "mean_diff": 6.533333333333333,
+        "n": 30,
+        "p_value": 1.6530995771390012e-06
+      },
+      "failed_delivery_qty": {
+        "mean_diff": -22.44,
+        "n": 30,
+        "p_value": 0.3129702263334466
+      },
+      "matching_time_ms_per_donation": {
+        "mean_diff": 0.04025394166661774,
+        "n": 30,
+        "p_value": 2.6885420083999634e-05
+      }
+    }
+  }
+}

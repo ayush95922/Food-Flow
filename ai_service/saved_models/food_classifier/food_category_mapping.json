@@ -1,0 +1,608 @@
+{
+  "apple_pie": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "baby_back_ribs": {
+    "category": "meat_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "baklava": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": true,
+    "note": "pastry or dessert"
+  },
+  "beef_carpaccio": {
+    "category": "meat_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "beef_tartare": {
+    "category": "meat_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "beet_salad": {
+    "category": "salad",
+    "donation_category": "fresh_salad",
+    "needs_review": false,
+    "note": ""
+  },
+  "beignets": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "bibimbap": {
+    "category": "rice_dish",
+    "donation_category": "cooked_meal",
+    "needs_review": true,
+    "note": "rice bowl with many toppings (mixed dish)"
+  },
+  "bread_pudding": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": true,
+    "note": "baked good or dessert"
+  },
+  "breakfast_burrito": {
+    "category": "sandwich_burger_wrap",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": false,
+    "note": ""
+  },
+  "bruschetta": {
+    "category": "bread_bakery",
+    "donation_category": "bakery_dry",
+    "needs_review": true,
+    "note": "bread-based appetizer"
+  },
+  "caesar_salad": {
+    "category": "salad",
+    "donation_category": "fresh_salad",
+    "needs_review": false,
+    "note": ""
+  },
+  "cannoli": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "caprese_salad": {
+    "category": "salad",
+    "donation_category": "fresh_salad",
+    "needs_review": false,
+    "note": ""
+  },
+  "carrot_cake": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "ceviche": {
+    "category": "seafood_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "cheese_plate": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "dairy platter; may be mixed foods"
+  },
+  "cheesecake": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "chicken_curry": {
+    "category": "prepared_dish",
+    "donation_category": "cooked_meal",
+    "needs_review": true,
+    "note": "generic curry; depends on the dish served with it"
+  },
+  "chicken_quesadilla": {
+    "category": "sandwich_burger_wrap",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": false,
+    "note": ""
+  },
+  "chicken_wings": {
+    "category": "meat_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "chocolate_cake": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "chocolate_mousse": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "churros": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "clam_chowder": {
+    "category": "soup",
+    "donation_category": "soup_liquid",
+    "needs_review": false,
+    "note": ""
+  },
+  "club_sandwich": {
+    "category": "sandwich_burger_wrap",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": false,
+    "note": ""
+  },
+  "crab_cakes": {
+    "category": "seafood_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "creme_brulee": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "croque_madame": {
+    "category": "sandwich_burger_wrap",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "sandwich with egg"
+  },
+  "cup_cakes": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "deviled_eggs": {
+    "category": "egg_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "donuts": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "dumplings": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "snack, side or main"
+  },
+  "edamame": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "vegetable snack"
+  },
+  "eggs_benedict": {
+    "category": "egg_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "escargots": {
+    "category": "seafood_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": true,
+    "note": "snails; not clearly meat or seafood"
+  },
+  "falafel": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "snack or main"
+  },
+  "filet_mignon": {
+    "category": "meat_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "fish_and_chips": {
+    "category": "seafood_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": true,
+    "note": "fried fish plus fries; seafood or fried meal"
+  },
+  "foie_gras": {
+    "category": "meat_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": true,
+    "note": "organ meat; may be a spread/appetizer"
+  },
+  "french_fries": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": false,
+    "note": ""
+  },
+  "french_onion_soup": {
+    "category": "soup",
+    "donation_category": "soup_liquid",
+    "needs_review": false,
+    "note": ""
+  },
+  "french_toast": {
+    "category": "breakfast_item",
+    "donation_category": "bakery_dry",
+    "needs_review": true,
+    "note": "breakfast or dessert"
+  },
+  "fried_calamari": {
+    "category": "seafood_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "fried_rice": {
+    "category": "rice_dish",
+    "donation_category": "cooked_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "frozen_yogurt": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "garlic_bread": {
+    "category": "bread_bakery",
+    "donation_category": "bakery_dry",
+    "needs_review": true,
+    "note": "bread or side dish"
+  },
+  "gnocchi": {
+    "category": "pasta_noodles",
+    "donation_category": "cooked_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "greek_salad": {
+    "category": "salad",
+    "donation_category": "fresh_salad",
+    "needs_review": false,
+    "note": ""
+  },
+  "grilled_cheese_sandwich": {
+    "category": "sandwich_burger_wrap",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": false,
+    "note": ""
+  },
+  "grilled_salmon": {
+    "category": "seafood_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "guacamole": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "dip; vegetable-based"
+  },
+  "gyoza": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "snack, side or main"
+  },
+  "hamburger": {
+    "category": "sandwich_burger_wrap",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": false,
+    "note": ""
+  },
+  "hot_and_sour_soup": {
+    "category": "soup",
+    "donation_category": "soup_liquid",
+    "needs_review": false,
+    "note": ""
+  },
+  "hot_dog": {
+    "category": "sandwich_burger_wrap",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": false,
+    "note": ""
+  },
+  "huevos_rancheros": {
+    "category": "egg_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": true,
+    "note": "egg dish served on tortilla"
+  },
+  "hummus": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "dip; legume-based"
+  },
+  "ice_cream": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "lasagna": {
+    "category": "pasta_noodles",
+    "donation_category": "cooked_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "lobster_bisque": {
+    "category": "soup",
+    "donation_category": "soup_liquid",
+    "needs_review": true,
+    "note": "soup made from seafood"
+  },
+  "lobster_roll_sandwich": {
+    "category": "sandwich_burger_wrap",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": false,
+    "note": ""
+  },
+  "macaroni_and_cheese": {
+    "category": "pasta_noodles",
+    "donation_category": "cooked_meal",
+    "needs_review": true,
+    "note": "pasta or comfort-food main"
+  },
+  "macarons": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "miso_soup": {
+    "category": "soup",
+    "donation_category": "soup_liquid",
+    "needs_review": false,
+    "note": ""
+  },
+  "mussels": {
+    "category": "seafood_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "nachos": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "snack or full meal"
+  },
+  "omelette": {
+    "category": "egg_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "onion_rings": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": false,
+    "note": ""
+  },
+  "oysters": {
+    "category": "seafood_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "pad_thai": {
+    "category": "pasta_noodles",
+    "donation_category": "cooked_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "paella": {
+    "category": "rice_dish",
+    "donation_category": "cooked_meal",
+    "needs_review": true,
+    "note": "rice dish with mixed meat/seafood"
+  },
+  "pancakes": {
+    "category": "breakfast_item",
+    "donation_category": "bakery_dry",
+    "needs_review": true,
+    "note": "breakfast or dessert"
+  },
+  "panna_cotta": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "peking_duck": {
+    "category": "meat_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "pho": {
+    "category": "soup",
+    "donation_category": "soup_liquid",
+    "needs_review": true,
+    "note": "noodle soup; could be soup or pasta_noodles"
+  },
+  "pizza": {
+    "category": "pizza",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": false,
+    "note": ""
+  },
+  "pork_chop": {
+    "category": "meat_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "poutine": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "fries with cheese and gravy; side or full meal"
+  },
+  "prime_rib": {
+    "category": "meat_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "pulled_pork_sandwich": {
+    "category": "sandwich_burger_wrap",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": false,
+    "note": ""
+  },
+  "ramen": {
+    "category": "pasta_noodles",
+    "donation_category": "cooked_meal",
+    "needs_review": true,
+    "note": "noodle soup; could be soup or pasta_noodles"
+  },
+  "ravioli": {
+    "category": "pasta_noodles",
+    "donation_category": "cooked_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "red_velvet_cake": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "risotto": {
+    "category": "rice_dish",
+    "donation_category": "cooked_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "samosa": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "snack or main"
+  },
+  "sashimi": {
+    "category": "seafood_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "scallops": {
+    "category": "seafood_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "seaweed_salad": {
+    "category": "salad",
+    "donation_category": "fresh_salad",
+    "needs_review": false,
+    "note": ""
+  },
+  "shrimp_and_grits": {
+    "category": "seafood_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": true,
+    "note": "seafood on a grain/porridge base"
+  },
+  "spaghetti_bolognese": {
+    "category": "pasta_noodles",
+    "donation_category": "cooked_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "spaghetti_carbonara": {
+    "category": "pasta_noodles",
+    "donation_category": "cooked_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "spring_rolls": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "snack or starter"
+  },
+  "steak": {
+    "category": "meat_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "strawberry_shortcake": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "sushi": {
+    "category": "prepared_dish",
+    "donation_category": "cooked_meal",
+    "needs_review": true,
+    "note": "rice + raw fish; could be rice_dish or seafood_dish"
+  },
+  "tacos": {
+    "category": "sandwich_burger_wrap",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "wrap-style or separate dish"
+  },
+  "takoyaki": {
+    "category": "appetizer_snack_side",
+    "donation_category": "ready_to_eat_snack",
+    "needs_review": true,
+    "note": "snack or main"
+  },
+  "tiramisu": {
+    "category": "dessert_sweet",
+    "donation_category": "sweets_desserts",
+    "needs_review": false,
+    "note": ""
+  },
+  "tuna_tartare": {
+    "category": "seafood_dish",
+    "donation_category": "cooked_protein_meal",
+    "needs_review": false,
+    "note": ""
+  },
+  "waffles": {
+    "category": "breakfast_item",
+    "donation_category": "bakery_dry",
+    "needs_review": true,
+    "note": "breakfast or dessert"
+  }
+}

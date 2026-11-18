@@ -1,0 +1,28 @@
+{
+  "_note": "DRAFT donation-oriented grouping used by matching & usable-time modules. Edit freely; not a food-safety classification.",
+  "dish_to_donation": {
+    "dessert_sweet": "sweets_desserts",
+    "breakfast_item": "bakery_dry",
+    "egg_dish": "cooked_protein_meal",
+    "meat_dish": "cooked_protein_meal",
+    "seafood_dish": "cooked_protein_meal",
+    "salad": "fresh_salad",
+    "soup": "soup_liquid",
+    "pasta_noodles": "cooked_meal",
+    "rice_dish": "cooked_meal",
+    "sandwich_burger_wrap": "ready_to_eat_snack",
+    "pizza": "ready_to_eat_snack",
+    "bread_bakery": "bakery_dry",
+    "appetizer_snack_side": "ready_to_eat_snack",
+    "prepared_dish": "cooked_meal"
+  },
+  "donation_categories": [
+    "bakery_dry",
+    "cooked_meal",
+    "cooked_protein_meal",
+    "fresh_salad",
+    "ready_to_eat_snack",
+    "soup_liquid",
+    "sweets_desserts"
+  ]
+}

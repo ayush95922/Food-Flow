@@ -1,0 +1,95 @@
+{
+  "data_source": "SYNTHETIC (documented assumption model) - NOT real data",
+  "n_rows": 6000,
+  "seed": 42,
+  "split": {
+    "train": 4200,
+    "validation": 900,
+    "test": 900
+  },
+  "selected_model": "gradient_boosting",
+  "selection_rule": "lowest validation RMSE",
+  "results": {
+    "linear_regression": {
+      "validation": {
+        "MAE_h": 4.372448964303426,
+        "RMSE_h": 6.605693105708819,
+        "R2": 0.9110727904603448
+      },
+      "fit_seconds": 0.1,
+      "test": {
+        "MAE_h": 4.003109764296018,
+        "RMSE_h": 5.972747990247898,
+        "R2": 0.9222075075662828
+      }
+    },
+    "random_forest": {
+      "validation": {
+        "MAE_h": 2.180303650682034,
+        "RMSE_h": 4.407058152507721,
+        "R2": 0.9604182089992934
+      },
+      "fit_seconds": 1.6,
+      "test": {
+        "MAE_h": 1.8320213942374497,
+        "RMSE_h": 3.6414474764953986,
+        "R2": 0.9710840540056277
+      }
+    },
+    "gradient_boosting": {
+      "validation": {
+        "MAE_h": 2.5134114385690505,
+        "RMSE_h": 4.395087795169527,
+        "R2": 0.960632939412259
+      },
+      "fit_seconds": 1.12,
+      "test": {
+        "MAE_h": 2.170638088500222,
+        "RMSE_h": 3.737179076377361,
+        "R2": 0.9695437013842673
+      }
+    }
+  },
+  "interval_halfwidth_h_q90": 7.341593220196555,
+  "interval_note": "90th percentile of absolute validation residuals; synthetic-data based, so NOT a guaranteed coverage on real food",
+  "assumptions": {
+    "BASE_LIFE_H": {
+      "cooked_meal": 6.0,
+      "cooked_protein_meal": 4.0,
+      "fresh_salad": 4.0,
+      "soup_liquid": 6.0,
+      "ready_to_eat_snack": 8.0,
+      "bakery_dry": 36.0,
+      "sweets_desserts": 24.0
+    },
+    "T_REF_C": 20.0,
+    "STORAGE_FACTOR": {
+      "room_temp": 1.0,
+      "refrigerated": 3.0,
+      "frozen": 10.0,
+      "hot_holding": 1.5,
+      "insulated_box": 1.3
+    },
+    "PACKAGING_FACTOR": {
+      "open": 0.8,
+      "covered": 1.0,
+      "sealed_container": 1.2,
+      "vacuum_sealed": 1.5
+    },
+    "temperature_rule": "life x 2^((T_ref - T)/10), assumed",
+    "noise": "lognormal(0, 0.15)"
+  },
+  "features": {
+    "numeric": [
+      "elapsed_h",
+      "temperature_c",
+      "hours_since_prep_to_now_ratio"
+    ],
+    "categorical": [
+      "food_category",
+      "storage_condition",
+      "packaging"
+    ]
+  },
+  "disclaimer": "Experimental estimate trained on SYNTHETIC data generated from documented assumptions. It is not a food-safety certification and does not confirm that food is safe to eat. Always follow local food-safety rules and the donor's/recipient's own checks."
+}
